@@ -550,7 +550,7 @@
                         "pid": 100, 
                         "kvmInSE": false, 
                         "cxx_class": "Process", 
-                        "executable": "/home/hsuchen/final_project/benchmark/quicksort", 
+                        "executable": "/home/hsuchen/gem5_project/benchmark/quicksort", 
                         "drivers": [], 
                         "system": "system", 
                         "gid": 100, 
@@ -559,7 +559,7 @@
                         "maxStackSize": 67108864, 
                         "ppid": 0, 
                         "type": "Process", 
-                        "cwd": "/home/hsuchen/final_project/results/Q3/full-way", 
+                        "cwd": "/home/hsuchen/gem5_project/results/Q3/full-way", 
                         "pgid": 100, 
                         "simpoint": 0, 
                         "euid": 100, 
@@ -567,12 +567,12 @@
                         "path": "system.cpu.workload", 
                         "name": "workload", 
                         "cmd": [
-                            "/home/hsuchen/final_project/benchmark/quicksort"
+                            "/home/hsuchen/gem5_project/benchmark/quicksort"
                         ], 
                         "errout": "cerr", 
                         "useArchPT": false, 
                         "egid": 100, 
-                        "output": "/home/hsuchen/final_project/results/Q3/full-way/std_output.txt"
+                        "output": "/home/hsuchen/gem5_project/results/Q3/full-way/std_output.txt"
                     }
                 ], 
                 "name": "cpu", 
@@ -771,9 +771,9 @@
             "replacement_policy": {
                 "eventq_index": 0, 
                 "path": "system.l3.replacement_policy", 
-                "type": "LFURP", 
+                "type": "LRURP", 
                 "name": "replacement_policy", 
-                "cxx_class": "LFURP"
+                "cxx_class": "LRURP"
             }, 
             "cpu_side": {
                 "peer": "system.tol3bus.master[0]", 

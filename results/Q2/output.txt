@@ -2,9 +2,9 @@ gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 compiled Jun 19 2024 02:19:20
-gem5 started Jun 20 2024 15:29:41
-gem5 executing on ubuntu, pid 1938
-command line: /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/build/X86/gem5.opt /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/configs/example/se.py -c /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/tests/test-progs/hello/bin/x86/linux/hello --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --mem-type=NVMainMemory --nvmain-config=/home/hsuchen/NVmain/Config/PCM_ISSCC_2012_4GB.config --output=/home/hsuchen/final_project/results/Q2/std_output.txt
+gem5 started Jun 20 2024 16:40:04
+gem5 executing on ubuntu, pid 3368
+command line: /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/build/X86/gem5.opt /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/configs/example/se.py -c /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/tests/test-progs/hello/bin/x86/linux/hello --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --mem-type=NVMainMemory --nvmain-config=/home/hsuchen/NVmain/Config/PCM_ISSCC_2012_4GB.config --output=/home/hsuchen/gem5_project/results/Q2/std_output.txt
 
 Global frequency set at 1000000000000 ticks per second
 NVMainControl: Reading NVMain config file: /home/hsuchen/NVmain/Config/PCM_ISSCC_2012_4GB.config.

@@ -2,9 +2,9 @@ gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 compiled Jun 19 2024 02:19:20
-gem5 started Jun 20 2024 15:24:03
-gem5 executing on ubuntu, pid 2064
-command line: /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/build/X86/gem5.opt /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/configs/example/se.py -c /home/hsuchen/final_project/benchmark/quicksort --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --l1i_size=32kB --l1d_size=32kB --l2_size=128kB --l3_size=128kB --mem-type=NVMainMemory --nvmain-config=/home/hsuchen/NVmain/Config/PCM_ISSCC_2012_4GB.config --output=/home/hsuchen/final_project/results/Q3/full-way/std_output.txt --l3_assoc=1
+gem5 started Jun 20 2024 16:41:40
+gem5 executing on ubuntu, pid 3434
+command line: /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/build/X86/gem5.opt /home/hsuchen/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e/configs/example/se.py -c /home/hsuchen/gem5_project/benchmark/quicksort --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --l1i_size=32kB --l1d_size=32kB --l2_size=128kB --l3_size=128kB --mem-type=NVMainMemory --nvmain-config=/home/hsuchen/NVmain/Config/PCM_ISSCC_2012_4GB.config --output=/home/hsuchen/gem5_project/results/Q3/full-way/std_output.txt --l3_assoc=1
 
 Global frequency set at 1000000000000 ticks per second
 NVMainControl: Reading NVMain config file: /home/hsuchen/NVmain/Config/PCM_ISSCC_2012_4GB.config.
@@ -125,7 +125,7 @@ defaultMemory.channel0.FRFCFS-WQF capacity is 4096 MB.
 Creating 4 command queues.
 **** REAL SIMULATION ****
 Exiting @ tick 93972258500 because exiting with last active thread context
-i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.subArrayEnergy 123346nJ
+i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.subArrayEnergy 123345nJ
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.activeEnergy 145.104nJ
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.burstEnergy 5840.31nJ
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.writeEnergy 117360nJ
@@ -158,11 +158,11 @@ i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.mlcTimingHis
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.cancelCountHisto {0: 3461}
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.wpPauseHisto {}
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.wpCancelHisto {}
-i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.bankEnergy 123346nJ
+i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.bankEnergy 123345nJ
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.activeEnergy 145.104nJ
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.burstEnergy 5840.31nJ
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.refreshEnergy 0nJ
-i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.bankPower 6.56367e+06W
+i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.bankPower 6.56365e+06W
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.activePower 7721.52W
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.burstPower 310784W
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.refreshPower 0W
