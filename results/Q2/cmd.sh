@@ -1,15 +1,15 @@
 #!/bin/bash
-gem5_path=${Home}/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e
-result_path=${Home}/gem5_project/results/Q2
+gem5_path=${HOME}/gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e
+result_path=${HOME}/gem5_project/results/Q2
 
-benchmark_quicksort=${Home}/gem5_project/benchmark/quicksort
-benchmark_multiply=${Home}/gem5_project/benchmark/multiply
+benchmark_quicksort=${HOME}/gem5_project/benchmark/quicksort
+benchmark_multiply=${HOME}/gem5_project/benchmark/multiply
 
 arg="\
     --cpu-type=TimingSimpleCPU\
     --caches --l2cache --l3cache\
     --mem-type=NVMainMemory\
-    --nvmain-config=${Home}/NVmain/Config/PCM_ISSCC_2012_4GB.config\
+    --nvmain-config=${HOME}/NVmain/Config/PCM_ISSCC_2012_4GB.config\
     --output=${result_path}/std_output.txt\
 "
 
