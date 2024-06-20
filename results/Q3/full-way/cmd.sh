@@ -8,7 +8,7 @@ benchmark_multiply=/home/hsuchen/gem5_project/benchmark/multiply
 arg="\
     --cpu-type=TimingSimpleCPU\
     --caches --l2cache --l3cache\
-    --l1i_size=32kB --l1d_size=32kB --l2_size=128kB --l3_size=128kB\
+    --l1i_size=32kB --l1d_size=32kB --l2_size=128kB --l3_size=256kB\
     --mem-type=NVMainMemory\
     --nvmain-config=/home/hsuchen/NVmain/Config/PCM_ISSCC_2012_4GB.config\
     --output=${result_path}/std_output.txt\
