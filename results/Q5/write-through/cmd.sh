@@ -15,5 +15,5 @@ arg="\
     --l1i_assoc=4 --l1d_assoc=4 --l2_assoc=4 --l3_assoc=4\
 "
 
-${gem5_path}/build/X86/gem5.opt ${gem5_path}/configs/example/se.py -c ${benchmark_quicksort} ${arg} > ${result_path}/output.txt
+${gem5_path}/build/X86/gem5.opt ${gem5_path}/configs/example/se.py -c ${benchmark_multiply} ${arg} > ${result_path}/output.txt
 
